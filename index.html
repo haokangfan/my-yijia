@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="md1">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <!--[if lt IE9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![end if]-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+</head>
+<body>
+    <!--navbar开始-->
+    <header class="cd-main-header animate-search" name="top">
+        <!--<div class="cd-logo"><img src="images/22.png" alt="Logo"></div>-->
+        <a href="#1" > <img src="images/22.png" alt="Logo" class="cd-logo"></a>
+
+        <nav class="cd-main-nav-wrapper">
+            <a href="#search" class="cd-search-trigger cd-text-replace">Search
+            </a>
+            <img src="images/search.png">
+            <ul class="cd-main-nav">
+                <li><a href="#0">首页</a></li>
+                <li><a href="drawing room.html">客厅</a></li>
+                <li><a href="bedroom.html">卧室</a></li>
+                <li><a href="restaurant.html">餐厅</a></li>
+                <!--<li><a href="#0">浴室</a></li>-->
+                <li><a href="cookhouse.html">厨房</a></li>
+            </ul> <!-- .cd-main-nav -->
+        </nav> <!-- .cd-main-nav-wrapper -->
+
+        <a href="#0" class="cd-nav-trigger cd-text-replace">Menu<span></span></a>
+    </header>
+    <main class="cd-main-content">
+
+    </main>
+    <div id="search" class="cd-main-search">
+        <form>
+            <input type="search" placeholder="Search...">
+        </form>
+
+        <div class="cd-search-suggestions">
+            <div class="news">
+                <h3>News</h3>
+                <ul>
+                    <li>
+                        <a class="image-wrapper" href="#0"><img src="images/aa2.jpg" alt="News image"></a>
+                        <h4><a class="cd-nowrap" href="#0">简约儿童房，甜蜜亲子空间，给孩子一个幸福的童年。</a></h4>
+                        <time datetime="2015-01-12">已发布<a href="#">相关家居</a></time>
+                    </li>
+
+                    <li>
+                        <a class="image-wrapper" href="#0"><img src="images/p10.png" alt="News image"></a>
+                         <h4><a class="cd-nowrap" href="#0">女人不可缺少的衣帽柜</a></h4>
+                        <time datetime="2015-01-12">已发布<a href="#">相关家居</a></time>
+                    </li>
+
+                    <li>
+                        <a class="image-wrapper" href="#0"><img src="images/aa4.jpg" alt="News image"></a>
+                        <h4><a class="cd-nowrap" href="#0">还在担心家里的储物功能有缺陷吗</a></h4>
+                        <time datetime="2015-01-12">已发布<a href="#">相关家居</a></time>
+                    </li>
+                 </ul>
+            </div> <!-- .news -->
+        </div> <!-- .cd-search-suggestions -->
+        <a href="#0" class="close cd-text-replace">Close Form</a>
+    </div> <!-- .cd-main-search -->
+    <div class="cd-cover-layer"></div> <!-- cover main content when search form is open -->
+
+    <!--navbar结束-->
+    <!--轮播开始-->
+    <section class="lunbo container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/lunbo/3.png" alt="...">
+                    <!--<div class="carousel-caption">-->
+                        <!--...-->
+                    <!--</div>-->
+                </div>
+                <div class="item">
+                    <img src="images/lunbo/2.png" alt="...">
+                </div>
+                <div class="item">
+                    <img src="images/lunbo/1.png" alt="...">
+                </div>
+                <div class="item">
+                    <img src="images/lunbo/4.png" alt="...">
+                </div>
+                <div class="item">
+                    <img src="images/lunbo/5.png" alt="...">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left span_1" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right span_1" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+    <!--轮播结束-->
+    <!--模块1开始-->
+    <section class="tehui">
+        <section class="container">
+            <h3>来自这里的优惠活动</h3>
+            <section class="row" >
+               <section class="col-md-6 col-sm-12">
+                   <section class="row">
+                       <section class="col-md-6">
+                           <img src="images/t1.png" class="img-responsive center-block">
+                           <p>新</p>
+                           <p>试听储物组合</p>
+                           <p>￥2,279.00/1件</p>
+                       </section>
+                       <section class="col-md-6">
+                           <img src="images/t2.png" class="img-responsive center-block">
+                           <p>新</p>
+                           <p>双门柜组合</p>
+                           <p>￥3,579.00/1组</p>
+                       </section>
+                       <section class="col-md-12" style="padding-bottom:200px">
+                           <img src="images/t7.png" class="img-responsive center-block">
+                           <p>更多的创意，为每个人设计</p>
+                           <a href="#1">了解更多>></a>
+                       </section>
+                   </section>
+               </section>
+               <section class="col-md-6 col-sm-12 se2">
+                   <section class="row">
+                       <section class="col-md-12">
+                           <img src="images/t8.png" class="img-responsive center-block">
+                           <h2>相同预算</h2>
+                           <h2>更多选择</h2>
+                           <a href="#">了解更多>></a>
+                       </section>
+                       <section class="col-md-6">
+                           <img src="images/t5.png" class="img-responsive center-block">
+                           <p>手推车</p>
+                           <p>原价：￥299.00</p>
+                           <p>￥249.00</p>
+                       </section>
+                       <section class="col-md-6">
+                           <img src="images/t6.png" class="img-responsive center-block">
+                           <span>转角柜</span>
+                           <span>原价：￥999.00</span>
+                           <span>￥699.00</span>
+                       </section>
+                   </section>
+               </section>
+            </section>
+        </section>
+    </section>
+    <!--模块1结束-->
+    <!--模块2开始-->
+        <section class="mokuai2">
+            <section class="container">
+                <section class="row">
+                    <section class="col-md-3 col-sm-12">
+                        <span>限时特惠</span>
+                        <span>5月20号-6月10号</span>
+                        <p>简约北欧风删格展示柜</p>
+                        <p>特惠产品每人只限购3件,</p>
+                        <p>数量有限，售完为止.</p>
+                        <p>原价：￥699</p>
+                        <p>原价：￥469</p>
+                        <img src="images/t9.png" alt="">
+                    </section>
+                    <section class="col-md-9 col-sm-12">
+                        <section class="row fuwu">
+                            <section class="col-md-8">
+                                <img src="images/t10.png" alt="">
+                            </section>
+                            <section class="col-md-4 se3">
+                                <h3>牢牢固定!</h3>
+                                <p>携手打造更安全的家</p>
+                                <p>我们都希望拥有一个安全的家，只要我们齐心协力，都可以尽量减少担忧</p>
+                                <a href="#1">了解更多>></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    <!--模块2结束-->
+    <!--模块3开始-->
+    <section class="miaoshu">
+        <section class="container">
+            <h3>宜家宜居之创意灵魂</h3>
+            <section class="row">
+                <section class="col-md-3 col-sm-12"></section>
+                <section class="col-md-6 col-sm-12">
+                    <p>
+                        家是一个人的归宿，是伴你成长的地方，人在变而家呢？是一成不变，还是默然回首，它已改变了
+                        多次容颜？家能完美彰显房子主人的风格特点。在家里，一切风格和功能都能按照你的喜好和需求设计，而且无需花费太多，即可为你带来舒适的感觉。这就是我们在本章介绍各种家居创意的原因所在，从家居装饰创意到收纳技巧，再到让你的家充满更多绿色的灵感，一应俱全。有了这些创意和灵感，就可以打造出一方你喜欢称其为家的空间。
+                    </p>
+                </section>
+                <section class="col-md-3 col-sm-12"></section>
+            </section>
+        </section>
+    </section>
+    <!--模块3结束-->
+    <!--模块4开始-->
+       <section class="fenlei">
+           <section class="container">
+               <section col-md-12>
+                   <a href="#">巧妙改造</a>
+                   <a href="#">客厅</a>
+                   <a href="#">餐厅</a>
+                   <a href="#">家庭生活</a>
+                   <a href="#">小空间</a>
+                   <a href="#">绿色健康生活</a>
+                   <a href="#">厨房</a>
+                   <a href="#">儿童房</a>
+                   <a href="#">装饰</a>
+                   <a href="#">浴室</a>
+                   <a href="#">装饰</a>
+                   <a href="#">工作室</a>
+                   <a href="#">生活</a>
+                   <a href="#">趣味</a>
+                   <a href="#">收纳</a>
+                   <a href="#">童趣</a>
+                   <a href="#">绿植</a>
+                   <a href="#">烹饪烘焙</a>
+               </section>
+           </section>
+       </section>
+    <!--模块4结束-->
+    <!--模块5开始-->
+        <section class="tuwen">
+            <section class="container" ng-controller="a">
+                <section class="row">
+                    <section class="col-md-6 col-sm-12 l1">
+                        <div class="thumbnail">
+                            <img src="images/p9.png" class="img-responsive center-block">
+                            <div class="caption">
+                                <h3>如何安全存放你的夏季衣物</h3>
+                                <p>
+                                    夏天的结束，意味着我们又到了脱下凉鞋和太阳帽、换上围巾和针织衫的时候了。但在取出加热器之前，请先看看下面关于如何储存夏季衣物的建议，以便明年夏天来到时，
+                                    所有衣物都能方便取出，直接穿着。
+                                </p>
+                                <a href="#1">家庭生活</a>
+                                <a href="#1">卧室</a>
+                                <a href="#1">收纳</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-6 col-sm-12 r1">
+                        <div class="thumbnail">
+                            <img src="images/p10.png" class="img-responsive center-block">
+                            <div class="caption">
+                                <h3>再也不会“没衣服可穿”</h3>
+                                <p>
+                                    夏天的结束，意味着我们又到了脱下凉鞋和太阳帽、换上围巾和针织衫的时候了。但在取出加热器之前，请先看看下面关于如何储存夏季衣物的建议，以便明年夏天来到时，
+                                    所有衣物都能方便取出，直接穿着。
+                                </p>
+                                <a href="#1">卧室</a>
+                                <a href="#1">装饰</a>
+                                <a href="#1">收纳</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-6 col-sm-12 l2">
+                        <div class="thumbnail">
+                            <img src="images/p11.png" class="img-responsive center-block">
+                            <div class="caption">
+                                <h3>布置一个极富春天气息的清新餐桌</h3>
+                                <p>
+                                    设计师Carl Braganza表示：“我喜欢和亲朋好友一起享用午餐，休闲的布置能够让大家畅所欲言。另外，再加入一些元素，
+                                    一次简单的聚会也能变得与众不同。”
+                                </p>
+                                <a href="#1">厨房</a>
+                                <a href="#1">小空间</a>
+                                <a href="#1">餐厅</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-6 col-sm-12 r2">
+                        <div class="thumbnail">
+                            <img src="images/p12.png" class="img-responsive center-block">
+                            <div class="caption">
+                                <h3>请挑选一顿每餐，不论种类如何</h3>
+                                <p>
+                                    在工作时，在帮助孩子完成家庭作业时，或者在希望适应无事可做的闲暇时刻，你可以借此机会为晚餐作计划。肯定有更简单的方式。算了，我们都说了不用管太多，顺其自然吧。
+                                    现在就告诉你怎么做。
+                                </p>
+                                <a href="#1">厨房</a>
+                                <a href="#1">用餐</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-6 col-sm-12" ng-repeat="v in jiazai" >
+                        <div class="thumbnail">
+                            <img ng-src="{{v.imgName}}" class="img-responsive center-block">
+                            <div class="caption">
+                                <h3>{{v.biaoti}}</h3>
+                                <p>
+                                    {{v.jieshao}}
+                                </p>
+                                <a href="#1">{{v.anniu}}</a>
+                            </div>
+                        </div>
+                    </section>
+
+                </section>
+                <div class="alert alert-warning" role="alert" ng-hide="show1"><span class="glyphicon glyphicon-warning-sign"></span>  没有更多数据了！</div>
+                <h4 ng-click="add()" ng-show ="show1">加载更多</h4>
+            </section>
+        </section>
+    <!--模块5结束-->
+    <!--模块6开始-->
+        <section class="fenxiang">
+            <section class="container">
+                <div>
+                   <h3>预留约会日 我们相约在这里！</h3>
+                   <h3>展示个性</h3>
+                    <a href="#">了解更多>></a>
+                </div>
+            </section>
+        </section>
+    <!--模块6结束-->
+    <!--模块7开始-->
+        <section class="mokuai7">
+            <section class="container">
+                <h3>宜家宜居对您的帮助</h3>
+                <section class="row">
+                    <section class="col-md-6 col-sm-12">
+                        <p>设计软件规划你的梦想</p>
+                        <p>厨房设计软件</p>
+                        <p>浴室设计软件</p>
+                        <p>室内3D设计软件</p>
+                        <p>储物设计软件</p>
+                        <img src="images/t11.png" alt="">
+                    </section>
+                    <section class="col-md-6 col-sm-12">
+                        <p>不用自己动手，省心，您唯一的选择</p>
+                        <img src="images/t12.png" class="img-responsive center-block">
+                        <img src="images/t13.png" class="img-responsive center-block">
+                        <img src="images/t14.png" class="img-responsive center-block">
+                        <a href="#">了解更多服务>></a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    <!--模块7结束-->
+    <!--模块8开始-->
+        <section class="mokuai8">
+            <section class="container">
+                <h3>更多房间:</h3>
+                <section class="row">
+                    <section class="col-md-3 col-sm-12">
+                        <a href="#">卧室</a>
+                        <a href="#">厨房</a>
+                        <a href="#">宜家宜居儿童房</a>
+                        <a href="#">客厅</a>
+                        <a href="#">客厅软装类</a>
+                        <a href="#">家庭工作室</a>
+                    </section>
+                    <section class="col-md-3 col-sm-12">
+                        <a href="#">小型储物</a>
+                        <a href="#">大型储物</a>
+                        <a href="#">洗衣房</a>
+                        <a href="#">浴室</a>
+                        <a href="#">灯具</a>
+                        <a href="#">阳台休闲装饰</a>
+                    </section>
+                    <section class="col-md-3 col-sm-12">
+                        <a href="#">餐厅</a>
+                        <a href="#">餐厅储物</a>
+                        <a href="#">餐厅软装装饰</a>
+                        <a href="#">门厅</a>
+                        <a href="#">门厅储物</a>
+                    </section>
+                    <section class="col-md-3 col-sm-12">
+                        <a href="#">流行色</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    <!--模块8结束-->
+    <!--模块9开始-->
+        <section class="mokuai9">
+            <section class="container">
+                <section class="row">
+                    <section class="col-md-2 col-sm-12">
+                        <h5>客户服务</h5>
+                        <a href="#">购物攻略</a>
+                        <a href="#">宜家宜居店铺</a>
+                        <a href="#">宜家宜居服务</a>
+                        <a href="#">更多服务</a>
+                    </section>
+                    <section class="col-md-2 col-sm-12">
+                        <h5>宜家宜居概念</h5>
+                        <a href="#">设计理念</a>
+                        <a href="#">民主设计</a>
+                        <a href="#">关于我们</a>
+                    </section>
+                    <section class="col-md-2 col-sm-12">
+                        <h5>宜家宜居俱乐部</h5>
+                        <a href="#">免费加入</a>
+                        <a href="#">更多优惠</a>
+                    </section>
+                    <section class="col-md-2 col-sm-12">
+                        <h5>服务热线</h5>
+                        <a href="#" class="glyphicon glyphicon-earphone"> 100-400-2047</a>
+                    </section>
+                    <section class="col-md-2 col-sm-12">
+                        <h5>售后服务</h5>
+                        <a href="#">退换货说明</a>
+                        <a href="#">退单流程</a>
+                        <a href="#">投诉受理</a>
+                    </section>
+                    <section class="col-md-2 col-sm-12">
+                        <h5>购物指南</h5>
+                        <a href="#">下单流程</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    <!--模块9结束-->
+    <!--模块10结束-->
+    <footer>
+        <section class="container">
+            <section class="row">
+                <section class="col-md-12">
+                    <p>Copyright &copy; 2015.Company name All rights reserved|沪ICP备 09056035号 </p>
+                </section>
+            </section>
+            <section class="tubiao">
+                <a href="#top"><img src="images/BackToTopArrow.png" alt=""></a>
+            </section>
+        </section>
+    </footer>
+    <!--模块10结束-->
+
+<script src="js/jquery-1.11.3.js"></script>
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+<script src="js/bootstrap.js"></script>
+<script src="js/angular.js"></script>
+    <script src="js/main.js"></script>
+    <script src=js/my-animated.js></script>
+<script src="js/index.js"></script>
+
+
+</body>
+</html>

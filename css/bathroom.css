@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header > a img {
+  width: 150px;
+  margin-top: 5px;
+}
+header .cd-main-nav-wrapper {
+  position: relative;
+}
+header .cd-main-nav-wrapper > a + img {
+  position: absolute;
+  top: 28px;
+  right: 85px;
+}
+header .cd-main-nav-wrapper > ul a {
+  font-family: "微软雅黑";
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 20px;
+}
+header .cd-main-nav-wrapper > ul a:hover {
+  border-bottom: 2px solid white;
+  color: #EA8E20;
+  text-decoration: none;
+  opacity: 1;
+}
+header .cd-main-nav-wrapper > ul > li:nth-child(5) > a {
+  border-bottom: 2px solid #EA8E20;
+}
+header .news ul time a {
+  color: #EA8B2F;
+  text-decoration: none;
+}
+.keting_1 {
+  margin-top: 20px;
+}
+.keting_1 .row2 > section:first-child span {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #fe6720;
+}
+.keting_1 .row2 > section:first-child h3 {
+  font-size: 22px;
+  color: #333333;
+  font-weight: 800;
+  margin-top: -1px;
+}
+.keting_1 .row2 > section:first-child p {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #333333;
+}
+.keting_1 .row > section:first-child a {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #3399fd;
+  transition: 1s color;
+}
+.keting_1 .row2 > section:first-child a:hover {
+  color: #3a82c9;
+}
+.keting_1 .thumbnail {
+  border: none;
+  overflow: hidden;
+}
+.keting_1 img {
+  transition: 1s transform;
+}
+.keting_1 img:hover {
+  transform: scale(1.2);
+}
+.keting_1 .row2 > section:nth-child(2) h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+.keting_1 .row > section:nth-child(2) span {
+  color: #ff6623;
+}
+.keting_1 .row > section:nth-child(2) a {
+  font-size: 12px;
+  color: #3399fd;
+}
+.keting_1 .row2 > section:nth-child(3) h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+.keting_1 .row2 > section:nth-child(3) span {
+  color: #ff6623;
+}
+.keting_1 .row2 > section:nth-child(3) a {
+  font-size: 12px;
+  color: #3399fd;
+}
+.keting_1 .row3 div h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+.keting_1 .row3 div span {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #fe6720;
+}
+.keting_1 .row3 div a {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #3399fd;
+  transition: 1s color;
+}
